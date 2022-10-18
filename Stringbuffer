@@ -1,0 +1,8 @@
+classExstringbuffer{
+public static void main(String args[]){
+ StringBuffer sb=new StringBuffer("shriram aghav");
+ System.out.println(sb.capacity());
+ sb.append("hello");
+ System.out.println(sb.capacity());
+ }
+ }
